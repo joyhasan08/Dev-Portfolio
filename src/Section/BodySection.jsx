@@ -31,12 +31,14 @@ const techs = [
 ]
 
 // bg-[#FFE6C0]
-
-
+// bg-gradient-to-b from-[#FFE6C0] via-[#feedd4] to-[#fcfcfc]
+// border-[#FFDE59]
+// #C1FF72
 const BodySection = () => {
     return (
-        <section className=' bg-gradient-to-b from-[#FFE6C0] via-[#fefefe] to-[#fcfcfc]'>
-            <div className="  grid grid-cols-2 gap-2 p-8 xl:max-w-6xl mx-auto ">
+        <section className=' '>
+            <h1 className='text-5xl font-mono font-semibold text-center border-b-4 w-fit mx-auto pb-4 py-8  border-[#FFDE59]'>My Skills</h1>
+            <div className="  grid grid-cols-2 gap-2 p-8 xl:max-w-7xl mx-auto ">
                 {
                     techs.map((tech) => <CardTech key={tech.title} title={tech.title} desc={tech.desc} img={tech.img} />)
                 }

@@ -3,7 +3,7 @@ const btnCls = 'cursor-pointer uppercase font-mono  font-bold rounded border-2 b
 const CardTech = ({ title, img, desc }) => {
     return (
         <div>
-            <div className={`${btnCls} m-2 p-4 space-y-4`}>
+            <div className={`${btnCls} hover:bg-slate-100 m-2 p-4 space-y-4`}>
                 <img src={img} alt="" />
                 <div className='space-y-2'>
                     <h1 className='text-2xl'>{title}</h1>

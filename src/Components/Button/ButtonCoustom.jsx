@@ -4,7 +4,7 @@ const btnCls = 'cursor-pointer uppercase font-mono  font-bold py-2 px-4 rounded 
 const ButtonCoustom = ({ title }) => {
     return (
         <>
-            <button className={`${btnCls} hover:bg-lime-400 bg-white  `}>
+            <button className={`${btnCls} hover:bg-[#C1FF72] bg-white  `}>
                 {title}
             </button>
         </>
