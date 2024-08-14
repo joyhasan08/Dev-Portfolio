@@ -3,6 +3,7 @@ import rt from '../assets/icon/react.png'
 import nd from '../assets/icon/nodejs.png'
 import db from '../assets/icon/mongo.png'
 import CardTech from '../Components/Cards/CardTech'
+import Title from '../Components/Title'
 
 
 
@@ -37,7 +38,7 @@ const techs = [
 const BodySection = () => {
     return (
         <section className=' '>
-            <h1 className='text-5xl font-mono font-semibold text-center border-b-4 w-fit mx-auto pb-4 py-8  border-[#FFDE59]'>My Skills</h1>
+            <Title title={'SKILLS SET'} />
             <div className="  grid grid-cols-2 gap-2 p-8 xl:max-w-7xl mx-auto ">
                 {
                     techs.map((tech) => <CardTech key={tech.title} title={tech.title} desc={tech.desc} img={tech.img} />)
