@@ -4,6 +4,7 @@ import nd from '../assets/icon/nodejs.png'
 import db from '../assets/icon/mongo.png'
 import CardTech from '../Components/Cards/CardTech'
 import Title from '../Components/Title'
+import TechMarquee from '../Components/TechMarquee'
 
 
 
@@ -43,7 +44,12 @@ const BodySection = () => {
                 {
                     techs.map((tech) => <CardTech key={tech.title} title={tech.title} desc={tech.desc} img={tech.img} />)
                 }
+
             </div>
+            <div className='p-8 xl:max-w-7xl mx-auto'>
+                <TechMarquee />
+            </div>
+
         </section>
     );
 };

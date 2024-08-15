@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Title from "../Title";
 
 const initUserData = {
     userName: '',
@@ -25,11 +26,12 @@ const AddUser = () => {
     const inputContainer = 'flex flex-col font-medium gap-2 '
 
     return (
-        <section className="max-w-7xl mx-auto ">
-            <h1 className="text-2xl font-light  w-full mb-10  uppercase font-mono bg-white  py-2 px-4  shadow-[0.0rem_0.25rem_#121212] " >User Registration Form</h1>
+        <section className="max-w-7xl mx-auto mb-16 ">
+            <Title title={'Contact'} />
+            <h1 className="text-2xl font-light  w-full mb-10  uppercase font-mono bg-white  py-2 px-4  shadow-[0.0rem_0.25rem_#121212] " >Contact ME </h1>
             <div className="grid grid-cols-2 gap-4">
                 <div className={inputContainer}>
-                    <label htmlFor="name">Full Name </label>
+                    <label htmlFor="name"> Name </label>
                     <input className={inputCls} onChange={handleOnChange} type="text" name="name" id="name" />
                 </div>
 
@@ -38,15 +40,16 @@ const AddUser = () => {
                     <input className={inputCls} onChange={handleOnChange} type="text" name="email" id="email" />
                 </div>
 
-                <div className={inputContainer}>
-                    <label htmlFor="number">Phone Number </label>
-                    <input className={inputCls} onChange={handleOnChange} placeholder="+880" type="number" name="number" id="number" />
+                <div className={`${inputContainer} col-span-2`}>
+                    <label htmlFor="number">Message </label>
+                    {/* <input className={inputCls} onChange={handleOnChange} placeholder="+880" type="text" name="number" id="number" /> */}
+                    <textarea className={inputCls} name="message" id=""></textarea>
                 </div>
 
-                <div className={inputContainer}>
+                {/* <div className={inputContainer}>
                     <label htmlFor="userImg">Photo url </label>
                     <input className={inputCls} onChange={handleOnChange} placeholder="Photo url" type="text" name="userImg" id="userImg" />
-                </div>
+                </div> */}
 
             </div>
             <div className=" w-fit mx-auto   pt-10">
