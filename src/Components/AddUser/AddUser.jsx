@@ -26,7 +26,7 @@ const AddUser = () => {
     const inputContainer = 'flex flex-col font-medium gap-2 '
 
     return (
-        <section className="max-w-7xl mx-auto mb-16 ">
+        <section className="max-w-7xl mx-auto mb-16 p-8 ">
             <Title title={'Contact'} />
             <h1 className="text-2xl font-light  w-full mb-10  uppercase font-mono bg-white  py-2 px-4  shadow-[0.0rem_0.25rem_#121212] " >Contact ME </h1>
             <div className="grid grid-cols-2 gap-4">

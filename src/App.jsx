@@ -1,5 +1,6 @@
 
 import Aos from 'aos'
+import "aos/dist/aos.css"
 import './App.css'
 import AddUser from './Components/AddUser/AddUser'
 import BodySection from './Section/BodySection'
@@ -15,7 +16,7 @@ function App() {
       offset: 200,
       duration: 600,
       easing: 'ease-in-out-sine',
-      delay: 100,
+      delay: 1000,
     })
   }, [])
 
@@ -25,10 +26,12 @@ function App() {
 
       <div data-aos="fade-right" >
         <BodySection />
-        <ProjectSection />
+      </div>
+      <ProjectSection />
+      <div data-aos="fade-right">
+        <AddUser />
       </div>
 
-      <AddUser data-aos="fade-left" />
       <Footer />
 
     </>
