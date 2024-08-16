@@ -6,6 +6,7 @@ import ts from '../assets/tech/typescript.svg'
 import tailwind from '../assets/tech/tailwind-css.svg'
 import sql from '../assets/tech/sql.svg'
 import git from '../assets/tech/git.svg'
+import mongo from '../assets/tech/mongoose-1.svg'
 import Title from "./Title";
 
 const btnCls = 'cursor-pointer uppercase font-mono  font-bold py-2 px-4 rounded-full object-fit border-2 border-black shadow-[0.25rem_0.25rem_#121212] transition-[transform_50ms, box-shadow_50ms] active:translate-x-0.5 active:translate-y-0.5 active:shadow-[0.125rem_0.125rem_#121212]  '
@@ -24,6 +25,7 @@ const TechMarquee = () => {
                     <img className={`w-40 h-40 ${btnCls} `} src={sql} alt="" />
                     <img className={`w-40 h-40 ${btnCls} `} src={tailwind} alt="" />
                     <img className={`w-40 h-40 ${btnCls}  `} src={git} alt="" />
+                    <img className={`w-40 h-40 ${btnCls}  `} src={mongo} alt="" />
                 </div>
 
             </Marquee >
