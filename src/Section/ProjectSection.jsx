@@ -79,7 +79,9 @@ const ProjectSection = () => {
                 </div>
             </div>
 
-
+            <div className="w-fit mx-auto">
+                <ButtonCoustom title={'View All Projects'} />
+            </div>
         </div>
     );
 };
