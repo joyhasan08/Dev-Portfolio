@@ -8,6 +8,7 @@ import ecom from '../assets/project/ecom.png'
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css"
+import CardProject from "../Components/Cards/ProjectCard/CardProject";
 
 
 const ProjectSection = () => {
@@ -77,6 +78,11 @@ const ProjectSection = () => {
                         <ButtonLive />
                     </div>
                 </div>
+            </div>
+            <div className="flex gap-4">
+                <CardProject />
+                <CardProject />
+                <CardProject />
             </div>
 
             <div className="w-fit mx-auto">
