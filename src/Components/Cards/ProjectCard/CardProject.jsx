@@ -37,7 +37,7 @@ const CardProject = () => {
                         >
                             • Analytics
                         </span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quis totam quaerat et nemo saepe, unde molestiae, dolore veritatis atque quidem quibusdam. Ratione inventore, deleniti minus harum quaerat similique neque.</p>
+                        <p>Lorem ipsum dolor sit amet, </p>
                         <span className="project-type">• Dashboards</span>
                     </div>
                 </div>

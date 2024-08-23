@@ -8,6 +8,7 @@ import Footer from './Section/Footer'
 import Header from './Section/Header'
 import ProjectSection from './Section/ProjectSection'
 import { useEffect } from 'react'
+import AboutMe from './Components/About/AboutMe'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       </div>
       <ProjectSection />
       <div data-aos="fade-right">
+        <AboutMe />
         <AddUser />
       </div>
 

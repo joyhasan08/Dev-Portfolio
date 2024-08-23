@@ -79,7 +79,7 @@ const ProjectSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex gap-4">
+            <div className="grid grid-cols-3 gap-4 w-fit mx-auto">
                 <CardProject />
                 <CardProject />
                 <CardProject />
