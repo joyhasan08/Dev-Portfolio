@@ -16,6 +16,8 @@ const AboutMe = () => {
                         </div>
                         <div className="text-gray-800">
                             <p>Insert the actual text content here...</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, harum!</p>
                         </div>
                     </div>
                 </div>
