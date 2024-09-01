@@ -30,7 +30,7 @@ function App() {
       </div>
       <ProjectSection />
       <div data-aos="fade-right">
-        <AboutMe />
+        {/* <AboutMe /> */}
         <AddUser />
       </div>
 

@@ -37,7 +37,7 @@ const CardProject = () => {
                         >
                             • Analytics
                         </span>
-                        <p>Lorem ipsum dolor sit amet, </p>
+                        {/* <p>Lorem ipsum dolor sit amet, </p> */}
                         <span className="project-type">• Dashboards</span>
                     </div>
                 </div>

@@ -9,6 +9,7 @@ import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css"
 import CardProject from "../Components/Cards/ProjectCard/CardProject";
+import { Link } from "react-router-dom";
 
 
 const ProjectSection = () => {
@@ -62,6 +63,8 @@ const ProjectSection = () => {
                     <div className="flex gap-4">
                         <ButtonCoustom title={'Case Study'} />
                         <ButtonLive />
+
+                        {/* <Link to={'https://ngo-project-one.vercel.app/auth/login'} > gooo</Link> */}
                     </div>
                 </div>
             </div>
@@ -79,11 +82,11 @@ const ProjectSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-3 gap-4 w-fit mx-auto">
+            {/* <div className="grid grid-cols-3 gap-4 w-fit mx-auto">
                 <CardProject />
                 <CardProject />
                 <CardProject />
-            </div>
+            </div> */}
 
             <div className="w-fit mx-auto">
                 <ButtonCoustom title={'View All Projects'} />
