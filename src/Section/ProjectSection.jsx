@@ -82,6 +82,20 @@ const ProjectSection = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="flex justify-between items-center gap-20 p-4 font-mono" data-aos="slide-up" >
+                <div>
+                    <img src={ecom} alt="" />
+                </div>
+                <div className="space-y-4">
+                    <h1 className="text-3xl font-semibold leading-relaxed"> Online JobPlacemanet Website</h1>
+                    <p className="max-w-4xl">Connect is a Professional Job Placement Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of job, with a focus on dependability and Services. We're working to turn our passion for Job Placement Platform into a booming online website. We hope you enjoy our Job Placement Platform as much as we enjoy offering them to you.</p>
+                    <div className="flex gap-4">
+                        <ButtonCoustom title={'Case Study'} />
+                        <ButtonLive link={'https://connet-app.web.app/'} />
+                    </div>
+                </div>
+            </div>
             {/* <div className="grid grid-cols-3 gap-4 w-fit mx-auto">
                 <CardProject />
                 <CardProject />
