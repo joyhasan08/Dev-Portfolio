@@ -34,7 +34,7 @@ const ProjectSection = () => {
                     <p className="max-w-4xl">The project involves converting a Figma design into a fully functional website for ATC Tech Ltd. The goal is to create an engaging and user-friendly website that accurately reflects the company’s brand and offerings</p>
                     <div className="flex gap-4">
                         <ButtonCoustom title={'Case Study'} />
-                        <ButtonLive />
+                        <ButtonLive link={'https://www.atctechlimited.com/'} />
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@ const ProjectSection = () => {
                     <p className="max-w-4xl">The project involves converting a Figma design into a fully functional website for ATC Tech Ltd. The goal is to create an engaging and user-friendly website that accurately reflects the company’s brand and offerings</p>
                     <div className="flex gap-4">
                         <ButtonCoustom title={'Case Study'} />
-                        <ButtonLive />
+                        <ButtonLive link={'https://ngo-project-one.vercel.app/'} />
 
                         {/* <Link to={'https://ngo-project-one.vercel.app/auth/login'} > gooo</Link> */}
                     </div>

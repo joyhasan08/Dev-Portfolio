@@ -7,7 +7,7 @@ const ButtonLive = ({ link }) => {
     return (
         <div>
             <button className={`${btnCls} hover:bg-[#C1FF72] bg-[#FFDE59] `}>
-                Live Link
+                <a href={link ? link : null}>Live Link </a>
             </button>
         </div>
     );
