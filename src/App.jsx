@@ -1,31 +1,27 @@
-
-import Aos from 'aos'
-import "aos/dist/aos.css"
-import './App.css'
-import AddUser from './Components/AddUser/AddUser'
-import BodySection from './Section/BodySection'
-import Footer from './Section/Footer'
-import Header from './Section/Header'
-import ProjectSection from './Section/ProjectSection'
-import { useEffect } from 'react'
-import AboutMe from './Components/About/AboutMe'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import "./App.css";
+import AddUser from "./Components/AddUser/AddUser";
+import BodySection from "./Section/BodySection";
+import Header from "./Section/Header";
+import ProjectSection from "./Section/ProjectSection";
 
 function App() {
-
   useEffect(() => {
     Aos.init({
       offset: 200,
       duration: 300,
-      easing: 'ease-in-out-sine',
+      easing: "ease-in-out-sine",
       delay: 100,
-    })
-  }, [])
+    });
+  }, []);
 
   return (
     <>
       <Header />
 
-      <div data-aos="fade-right" >
+      <div data-aos="fade-right">
         <BodySection />
       </div>
       <ProjectSection />
@@ -34,10 +30,9 @@ function App() {
         <AddUser />
       </div>
 
-      <Footer />
-
+      {/* <Footer /> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
