@@ -156,6 +156,7 @@ const ProjectSection = () => {
             </div> */}
 
       <div className="w-fit mx-auto">
+        <div className="border b-2 border-black pt-10"></div>
         <ButtonCoustom title={"View All Projects"} />
       </div>
     </div>
