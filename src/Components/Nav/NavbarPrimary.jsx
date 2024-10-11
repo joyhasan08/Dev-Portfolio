@@ -44,6 +44,7 @@ const NavbarPrimary = () => {
                     <li className="hover:text-[#FFDE59] cursor-pointer">ABOUT</li>
                     <li className="hover:text-[#FFDE59] cursor-pointer">CONTACT</li>
                     <li className="hover:text-[#FFDE59] cursor-pointer">PROJECTS</li>
+                    <li className="hover:text-[#FFDE59] cursor-pointer bg-green-500 rounded-lg py-3 px-2 text-white">CV DOWNLOAD</li>
                 </ul>
             </div>
             <div className="md:hidden flex items-center">
