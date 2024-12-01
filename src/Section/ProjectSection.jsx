@@ -149,13 +149,12 @@ const ProjectSection = () => {
           </div>
         </div>
       </div>
-      {/* <div className="grid grid-cols-3 gap-4 w-fit mx-auto">
-                <CardProject />
-                <CardProject />
-                <CardProject />
-            </div> */}
+      <div className="grid grid-cols-3 gap-4 w-fit mx-auto">
+        <div></div>
+      </div>
 
       <div className="w-fit mx-auto">
+
         <ButtonCoustom title={"View All Projects"} />
       </div>
     </div>
