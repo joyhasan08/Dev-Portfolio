@@ -6,6 +6,7 @@ import AddUser from "./Components/AddUser/AddUser";
 import BodySection from "./Section/BodySection";
 import Header from "./Section/Header";
 import ProjectSection from "./Section/ProjectSection";
+import FooterSection from "./Components/Footer/FooterSection";
 
 function App() {
   useEffect(() => {
@@ -30,7 +31,7 @@ function App() {
         <AddUser />
       </div>
 
-      {/* <Footer /> */}
+      <FooterSection/>
     </>
   );
 }

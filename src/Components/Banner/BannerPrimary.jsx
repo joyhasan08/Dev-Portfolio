@@ -1,5 +1,4 @@
 import pic from "../../assets/logo/joyPicSM.png";
-import titleLogo from "../../assets/logo/titleLogo.png";
 import ButtonCoustom from "../Button/ButtonCoustom";
 
 import git from "../../assets/icon/code.png";
@@ -19,12 +18,12 @@ const BannerPrimary = () => {
     >
       <div className="flex flex-col-reverse md:flex-row text-center  md:text-left space-y-8 items-center justify-between gap-8 max-w-7xl">
         <div className=" space-y-8 ">
-          <h1 className="md:text-5xl text-3xl font-bold flex items-center mx-auto w-fit gap-4">
+          <h1 className="md:text-5xl text-3xl font-bold  gap-4">
             {" "}
-            {/* HEY , I'M{" "} */}
-            <span>
+            HEY , I'M ZARJIJ HASAN
+            {/* <span>
               <img className="w-64" src={titleLogo} alt="" />
-            </span>
+            </span> */}
           </h1>
 
           <p className="leading-relaxed tracking-wide max-w-3xl text-center md:text-left text-lg font-mono">
