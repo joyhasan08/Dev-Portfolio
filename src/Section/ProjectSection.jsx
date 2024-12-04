@@ -8,6 +8,7 @@ import arcf from "../assets/project/arcf.png";
 import atc from "../assets/project/atcWeb.png";
 import ecom from "../assets/project/ecom.png";
 import ngo from "../assets/project/ngo.png";
+import job from "../assets/project/jobsitee.png"
 
 const ProjectSection = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const ProjectSection = () => {
     });
   }, []);
   return (
-    <div className="max-w-7xl mx-auto">
+    <div id="projects" className="max-w-7xl mx-auto">
       <Title title={"MY PROJECTS"} />
 
       <div
@@ -42,12 +43,12 @@ const ProjectSection = () => {
           </p>
           <div className="flex gap-4">
             <ButtonCoustom title={"Case Study"} />
-            <ButtonLive link={"https://www.atctechlimited.com/"} />
+            <ButtonLive link={"https://www.atctechltd.com/"} />
           </div>
         </div>
       </div>
-
-      <div
+{/* Arcf site  */}
+      {/* <div
         className="flex flex-col md:flex-row  justify-between items-center gap-20 p-4 font-mono"
         data-aos="slide-up"
       >
@@ -69,7 +70,7 @@ const ProjectSection = () => {
             <ButtonLive />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div
         className="flex flex-col md:flex-row  justify-between items-center gap-20 p-4 font-mono"
@@ -127,7 +128,7 @@ const ProjectSection = () => {
         data-aos="slide-up"
       >
         <div>
-          <img src={ecom} alt="" />
+          <img src={job} alt="" />
         </div>
         <div className="space-y-4">
           <h1 className="text-3xl font-semibold leading-relaxed">

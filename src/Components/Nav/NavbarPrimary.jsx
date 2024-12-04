@@ -24,6 +24,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logoPic from "../../assets/logo/Jlogo.png";
+import { Link } from "react-router-dom";
 
 const NavbarPrimary = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,7 +44,9 @@ const NavbarPrimary = () => {
                     <li className="hover:text-[#FFDE59] cursor-pointer">HOME</li>
                     <li className="hover:text-[#FFDE59] cursor-pointer">ABOUT</li>
                     <li className="hover:text-[#FFDE59] cursor-pointer">CONTACT</li>
-                    <li className="hover:text-[#FFDE59] cursor-pointer">PROJECTS</li>
+                    {/* <a href="#project"><li className="hover:text-[#FFDE59] cursor-pointer">PROJECTS</li></a> */}
+                    {/* <Link></Link> */}
+                    {/* <Link to={'projects'}><li className="hover:text-[#FFDE59] cursor-pointer">PROJECTS</li></Link> */}
                     <li className="hover:text-[#FFDE59] cursor-pointer bg-green-500 rounded-lg py-3 px-2 text-white">CV DOWNLOAD</li>
                 </ul>
             </div>

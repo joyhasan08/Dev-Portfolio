@@ -1,8 +1,9 @@
+import Footer from "../../Section/Footer";
 
 const FooterSection = () => {
     return (
         <div>
-            This is footer
+            <Footer />
         </div>
     );
 };
