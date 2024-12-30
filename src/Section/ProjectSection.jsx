@@ -21,7 +21,9 @@ const ProjectSection = () => {
   }, []);
   return (
     <div id="projects" className="max-w-7xl mx-auto">
+      <div className="px-4">
       <Title title={"MY PROJECTS"} />
+      </div>
 
       <div
         className="flex flex-col md:flex-row justify-between items-center gap-20 p-4 font-mono"
@@ -156,7 +158,7 @@ const ProjectSection = () => {
 
       <div className="w-fit mx-auto">
 
-        <ButtonCoustom title={"View All Projects"} />
+        {/* <ButtonCoustom title={"View All Projects"} /> */}
       </div>
     </div>
   );

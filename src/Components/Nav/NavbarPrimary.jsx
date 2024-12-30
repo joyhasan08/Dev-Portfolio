@@ -35,7 +35,8 @@ const NavbarPrimary = () => {
     };
 
     return (
-        <div className="fixed top-0 w-full z-20 text-lg font-mono font-semibold flex justify-between items-center bg-slate-100 py-4 px-10 shadow-lg drop-shadow-2xl">
+    <div className="max-w-7xl mx-auto ">
+        <div className="fixed top-0 w-full md:max-w-7xl rounded-b-2xl  z-20 text-lg font-mono font-semibold flex justify-between items-center bg-slate-100 py-4 px-10 shadow-lg drop-shadow-xl">
             <div className="flex items-center gap-3">
                 <img className="w-14 h-14 rounded-full border-4 border-[#FFDE59]" src={logoPic} alt="Logo" />
                 <p>ZARJIJ HASAN JOY</p>
@@ -68,6 +69,7 @@ const NavbarPrimary = () => {
                 </div>
             )}
         </div>
+    </div>
     );
 };
 

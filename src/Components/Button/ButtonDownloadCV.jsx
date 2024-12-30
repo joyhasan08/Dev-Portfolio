@@ -6,12 +6,13 @@ const ButtonDownloadCV = () => {
     return (
         <div>
             <button
-            className="hover:text-[#FFDE59] cursor-pointer bg-green-500 rounded-lg py-3 px-2 text-white"
+            className=" cursor-pointer bg-green-500 rounded-lg py-3 px-2 text-white 
+            hover:scale-110 duration-500 ease-in-out font-mono text-base"
             onClick={()=>{
                 window.location.href=cvURL
             }}
 
-            >CV Download
+            > Download Resume
             </button>
         </div>
     );

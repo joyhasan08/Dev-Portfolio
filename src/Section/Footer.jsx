@@ -1,5 +1,8 @@
 
 import zar from '../assets/logo/titleLogo.png'
+import fb from '../assets/icon/facebook.png'
+import git from '../assets/icon/code.png'
+import linkedin from '../assets/icon/lk.png'
 
 const Footer = () => {
     
@@ -23,33 +26,29 @@ const Footer = () => {
         >
             <footer className="px-4 py-8  bg-gray-900  text-gray-200">
                 <div className="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
-                    <div className="flex flex-row pr-3 space-x-4 sm:space-x-8">
-                        {/* <div className="flex items-center justify-center flex-shrink-0 rounded-full bg-default-600">
-                            <img className='w-64 border-2  border-yellow-300 rounded-xl p-1' src={zar} alt="" />
-                        </div> */}
-                        <ul className="flex flex-wrap items-center space-x-4 sm:space-x-8">
-                            <li>
-                                <a rel="noopener noreferrer" href="#">Terms of Use</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" href="#">Privacy</a>
-                            </li>
-                        </ul>
+                    <div>
+                        <p>All Rights Reserved @ <span className='text-yellow-400 font-medium font-mono'>ZARJIJ HASAN</span></p>
                     </div>
-                    <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
-                        <li> 
+
+                    <div className=" flex gap-6 font-mono">
+                     <div className='flex justify-center items-center  gap-4 hover:scale-110 duration-500 ease-in-out '>
+                            <img className='w-10 bg-[#2e88ee] rounded-full' src={fb} alt="" /> 
                             <a rel="noopener noreferrer" href="#">Facebook</a>
-                        </li>
-                        <li>
-                            <a rel="noopener noreferrer" href="#">Instagram</a>
-                        </li>
-                        <li>
-                            <a rel="noopener noreferrer" href="#">Twitter</a>
-                        </li>
-                        <li>
-                            <a rel="noopener noreferrer" href="#">All Rights Reserved @ <span className='text-yellow-400 font-medium'><em>ZARJIJ HASAN JOY  </em> </span></a>
-                        </li>
-                    </ul>
+                        </div>
+                        <div className='flex justify-center items-center  gap-4'>
+                            <img className='w-10 bg-slate-400 rounded-full' src={git} alt="" />
+                            <a rel="noopener noreferrer" href="#">Github</a>
+                        </div>
+                        <div className='flex justify-center items-center  gap-4'>
+                            <img className='w-10 bg-sky-700 rounded-full' src={linkedin} alt="" />
+                            <a rel="noopener noreferrer" href="#">Linkedin</a>
+                        </div>
+                        
+                         
+                    </div>
+
+                    
+                  
                 </div>
             </footer>
         </div>
