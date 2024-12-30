@@ -44,17 +44,18 @@ const BannerPrimary = () => {
           />
           <div className="flex gap-4">
             <img
-              className="w-14 h-14  border-4 hover:border-8  rounded-full border-[#FFDE59]"
+            // border-[#FFDE59]
+              className="w-14 h-14  border-4 hover:border-8  rounded-full  bg-[#8396ff77]"
               src={git}
               alt=""
             />
             <img
-              className="w-14 h-14  border-4 hover:border-8  rounded-full border-[#FFDE59]"
+              className="w-14 h-14  border-4 hover:border-8  rounded-full bg-[#5498ff59]"
               src={fb}
               alt=""
             />
             <img
-              className="w-14 h-14  border-4 hover:border-8  rounded-full border-[#FFDE59]"
+              className="w-14 h-14  border-4 hover:border-8  rounded-full bg-[#40bcff60]"
               src={lk}
               alt=""
             />
