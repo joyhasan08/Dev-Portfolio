@@ -1,10 +1,15 @@
+import { createBrowserRouter } from "react-router-dom";
+import App from "../App";
 
-const Roots = () => {
-    return (
-        <div>
+const Roots = createBrowserRouter([
+
+    {
+        path: "/",
+        element: <App />,
+        children: [
             
-        </div>
-    );
-};
+        ]
+    }
+]);
 
 export default Roots;
