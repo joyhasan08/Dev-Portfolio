@@ -28,7 +28,7 @@ const ProjectSection = () => {
         data-aos="slide-up"
         data-aos-
       >
-        <div>
+        <div className="hover:scale-105 duration-500 ease-in-out">
           <img src={atc} alt="" />
         </div>
         <div className="space-y-4">
@@ -76,7 +76,7 @@ const ProjectSection = () => {
         className="flex flex-col md:flex-row  justify-between items-center gap-20 p-4 font-mono"
         data-aos="slide-up"
       >
-        <div>
+        <div className="hover:scale-105 duration-500 ease-in-out">
           <img src={ngo} alt="" />
         </div>
         <div className="space-y-4">
@@ -102,7 +102,7 @@ const ProjectSection = () => {
         className="flex flex-col md:flex-row  justify-between items-center gap-20 p-4 font-mono"
         data-aos="slide-up"
       >
-        <div>
+        <div className="hover:scale-105 duration-500 ease-in-out">
           <img src={ecom} alt="" />
         </div>
         <div className="space-y-4">
@@ -124,10 +124,10 @@ const ProjectSection = () => {
       </div>
 
       <div
-        className="flex flex-col md:flex-row  justify-between items-center gap-20 p-4 font-mono"
+        className="flex flex-col md:flex-row  justify-between items-center gap-20 p-4 font-mono "
         data-aos="slide-up"
       >
-        <div>
+        <div className="hover:scale-105 duration-500 ease-in-out">
           <img src={job} alt="" />
         </div>
         <div className="space-y-4">
