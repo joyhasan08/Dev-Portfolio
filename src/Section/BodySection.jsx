@@ -36,7 +36,9 @@ const techs = [
 const BodySection = () => {
   return (
     <section className="w-full  ">
-      <Title  title={"SKILLS SET"} />
+     <div className="max-w-7xl mx-auto">
+      <Title  title={"SKILLS SET"} />  
+     </div>
       <div className="  grid md:grid-cols-2 gap-2 p-4 w-full  md:p-8 xl:max-w-7xl mx-auto ">
         {techs.map((tech) => (
           <CardTech
