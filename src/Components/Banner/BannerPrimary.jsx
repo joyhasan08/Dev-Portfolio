@@ -43,22 +43,28 @@ const BannerPrimary = () => {
             alt=""
           />
           <div className="flex gap-4">
-            <img
+           <a href="https://github.com/joyhasan08">
+           <img
             // border-[#FFDE59]
               className="w-14 h-14  border-4 hover:border-8  rounded-full  bg-[#8396ff77]"
               src={git}
               alt=""
             />
-            <img
+           </a>
+           <a href="https://dev-portfolio-steel-five.vercel.app/">
+           <img
               className="w-14 h-14  border-4 hover:border-8  rounded-full bg-[#5498ff59]"
               src={fb}
               alt=""
             />
-            <img
+           </a>
+          <a href="https://www.linkedin.com/in/zarjij-hasan-143381151/">
+          <img
               className="w-14 h-14  border-4 hover:border-8  rounded-full bg-[#40bcff60]"
               src={lk}
               alt=""
             />
+          </a>
           </div>
         </div>
       </div>
