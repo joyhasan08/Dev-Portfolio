@@ -49,37 +49,6 @@ A modern and responsive portfolio website built with React, featuring project sh
    - Professional job search and placement website
    - Live: [Connect](https://connet-app.web.app/)
 
-## 🛠️ Installation and Setup
-
-```sh
-# Clone the repository
-git clone [your-repo-link]
-
-# Navigate to project directory
-cd Dev-Portfolio
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-## 🌐 Deployment
-
-The site is built using Vite and can be deployed to any static hosting platform:
-
-1. Build the project:
-
-```sh
-npm run build
-```
-
-2. Deploy the `dist` folder to your hosting platform
-
 ## 📄 License
 
 © 2025 Zarjij Hasan — All rights reserved.
