@@ -82,8 +82,14 @@ npm run build
 
 ## 📄 License
 
-[Add your license information here]
+© 2025 Zarjij Hasan — All rights reserved.
 
 ## 🤝 Contact
 
-[Add your contact information here]
+📧 Email: zarjijhasan@gmail.com
+
+🌍 Portfolio: zarjijhasan.vercel.app
+
+💼 LinkedIn: linkedin.com/in/zarjijhasan
+
+🐙 GitHub: github.com/ZarjijHasan
