@@ -5,7 +5,7 @@ const CardTech = ({ title, img, desc }) => {
   return (
     <div>
       <div className={`${btnCls} hover:bg-slate-100 m-2 p-4 space-y-4 hover:scale-105 duration-500 ease-in-out`}>
-        <img src={img} alt="" />
+        <img className="w-12 h-12 " src={img} alt="" />
         <div className="space-y-2">
           <h1 className="text-2xl">{title}</h1>
           <p className="font-thin leading-relaxed ">{desc}</p>

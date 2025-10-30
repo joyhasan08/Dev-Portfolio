@@ -27,10 +27,8 @@ const BannerPrimary = () => {
           </h1>
 
           <p className="leading-relaxed tracking-wide max-w-3xl text-center md:text-left text-lg font-mono">
-            A passionate MERN Stack Developer and CSE graduate with a strong
-            foundation in both backend and frontend technologies. Currently, I'm
-            honing my skills in creating dynamic and responsive web
-            applications.
+            A passionate MERN Stack Developer and CSE graduate with a strong foundation in both backend and frontend technologies. Currently, I'm honing my skills in creating dynamic and responsive web applications and cross-platform mobile apps using React Native.
+
           </p>
           {/* <p>A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</p> */}
 
