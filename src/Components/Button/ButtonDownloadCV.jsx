@@ -18,7 +18,7 @@ const ButtonDownloadCV = () => {
             onClick={()=>{
                 window.location.href=cvURL
             }}
-            > Resume
+            > Download Resume
             </button>
             <img className="w-8 h-8" src={downloadIcon} alt="" />
         </div>
