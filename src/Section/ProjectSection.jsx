@@ -31,25 +31,24 @@ const ProjectSection = () => {
       </div>
 
       {/* app section  */}
-            {/* cart start  */}
+      {/* cart start  */}
       <div
         className="flex flex-col md:flex-row justify-between items-center gap-20 md:gap-28 p-4  md:p-10 mt-8 md:mt-24 md:ml-10 font-mono w-full"
         data-aos="slide-up"
-        data-aos-
       >
         <div className="hover:scale-105 duration-500 ease-in-out md:w-1/2">
           
           <div className="flex flex-col md:flex-row justify-items-center items-center gap-4 md:gap-10 w-fit mx-auto">
-            <img src={appSs1} alt="" />
-            <img src={appSs3} alt="" />
-            <img src={appSs2} alt="" />
+            <img src={appSs1} alt="Meditation App Screen 1" />
+            <img src={appSs3} alt="Meditation App Screen 2" />
+            <img src={appSs2} alt="Meditation App Screen 3" />
             
 
           </div>
         </div>
         <div className="space-y-4 md:w-1/2">
           <h1 className="text-3xl font-semibold leading-relaxed">
-            Meditation App .
+            Meditation App
           </h1>
           <p className="max-w-4xl">
             Find your calm anywhere, anytime. This Meditation App helps you reduce stress, improve focus, and build mindfulness through guided sessions, calming sounds, and breathing exercises. Built with React Native for a smooth and responsive experience on both Android and iOS.
@@ -71,10 +70,9 @@ const ProjectSection = () => {
       <div
         className="flex flex-col md:flex-row justify-between items-center gap-20 p-4 font-mono"
         data-aos="slide-up"
-        data-aos-
       >
         <div className="hover:scale-105 duration-500 ease-in-out">
-          <img src={atc} alt="" />
+          <img src={atc} alt="ATC Tech Ltd Website" />
         </div>
         <div className="space-y-4">
           <h1 className="text-3xl font-semibold leading-relaxed">
@@ -84,7 +82,7 @@ const ProjectSection = () => {
             The project involves converting a Figma design into a fully
             functional website for ATC Tech Ltd. The goal is to create an
             engaging and user-friendly website that accurately reflects the
-            company’s brand and offerings
+            company’s brand and offerings.
           </p>
           <div className="flex gap-4">
             <ButtonCoustom title={"Case Study"} />
@@ -129,17 +127,16 @@ const ProjectSection = () => {
         data-aos="slide-up"
       >
         <div className="hover:scale-105 duration-500 ease-in-out">
-          <img src={ngo} alt="" />
+          <img src={ngo} alt="NGO Platform" />
         </div>
         <div className="space-y-4">
           <h1 className="text-3xl font-semibold leading-relaxed">
-            NGO Website
+            NGO Community Platform
           </h1>
           <p className="max-w-4xl">
-            The project involves converting a Figma design into a fully
-            functional website for ATC Tech Ltd. The goal is to create an
-            engaging and user-friendly website that accurately reflects the
-            company’s brand and offerings
+            A comprehensive web platform developed for non-profit humanitarian initiatives.
+            Features include donation management, community campaigns, volunteer registration,
+            and real-time impact tracking with an intuitive, accessible interface.
           </p>
           <div className="flex gap-4">
             <ButtonCoustom title={"Case Study"} />
@@ -155,18 +152,16 @@ const ProjectSection = () => {
         data-aos="slide-up"
       >
         <div className="hover:scale-105 duration-500 ease-in-out">
-          <img src={ecom} alt="" />
+          <img src={ecom} alt="GamerHub E-commerce" />
         </div>
         <div className="space-y-4">
           <h1 className="text-3xl font-semibold leading-relaxed">
-            {" "}
-            E-commerce Website
+            GamerHub E-commerce
           </h1>
           <p className="max-w-4xl">
-            The project involves converting a Figma design into a fully
-            functional website for ATC Tech Ltd. The goal is to create an
-            engaging and user-friendly website that accurately reflects the
-            company’s brand and offerings
+            A full-featured e-commerce platform dedicated to gamers. Offers dynamic product cataloging,
+            interactive cart and checkout workflows, category filtering, and responsive design optimized
+            for gaming gear and merchandise enthusiasts.
           </p>
           <div className="flex gap-4">
             <ButtonCoustom title={"Case Study"} />
@@ -180,21 +175,16 @@ const ProjectSection = () => {
         data-aos="slide-up"
       >
         <div className="hover:scale-105 duration-500 ease-in-out">
-          <img src={job} alt="" />
+          <img src={job} alt="Job Placement Website" />
         </div>
         <div className="space-y-4">
           <h1 className="text-3xl font-semibold leading-relaxed">
-            {" "}
-            Online JobPlacemanet Website
+            Online Job Placement Website
           </h1>
           <p className="max-w-4xl">
-            Connect is a Professional Job Placement Platform. Here we will
-            provide you only interesting content, which you will like very much.
-            We're dedicated to providing you the best of job, with a focus on
-            dependability and Services. We're working to turn our passion for
-            Job Placement Platform into a booming online website. We hope you
-            enjoy our Job Placement Platform as much as we enjoy offering them
-            to you.
+            Connect is a professional job placement platform bridging talented job seekers with industry employers.
+            Features categorized job listings, streamlined applicant tracking, recruiter dashboards, and responsive
+            communication workflows.
           </p>
           <div className="flex gap-4">
             <ButtonCoustom title={"Case Study"} />

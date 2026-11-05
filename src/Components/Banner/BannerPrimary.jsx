@@ -13,6 +13,7 @@ import ProfileCard from "../Ui/ProfileCard";
 const BannerPrimary = () => {
   return (
     <div
+      id="home"
       style={{
         // backgroundImage: `url('${bg}')`,
         backgroundSize: "cover",
@@ -42,7 +43,9 @@ const BannerPrimary = () => {
           <div className="">
             {/* <GitState/> */}
           </div>
-          <ButtonCoustom title={"VIEW PROJECTS"} />         
+          <a href="#projects" className="inline-block">
+            <ButtonCoustom title={"VIEW PROJECTS"} />
+          </a>         
         </div>
         {/* img card */}
        <div className="pb-14">

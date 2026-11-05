@@ -21,28 +21,27 @@ const NavbarPrimary = () => {
             </div>
             <div className="hidden md:flex">
                 <ul className="flex items-center gap-8 font-mono">
-                    <li className="hover:text-[#FFDE59] cursor-pointer block md:hidden">HOME</li>
-                    <li className="hover:text-[#FFDE59] cursor-pointer block ">ABOUT</li>
-                    <li className="hover:text-[#FFDE59] cursor-pointer block ">CONTACT</li>
-                    {/* <a href="#project"><li className="hover:text-[#FFDE59] cursor-pointer">PROJECTS</li></a> */}
-                    {/* <Link></Link> */}
-                    {/* <Link to={'projects'}><li className="hover:text-[#FFDE59] cursor-pointer">PROJECTS</li></Link> */}
-                    {/* <li className="hover:text-[#FFDE59] cursor-pointer bg-green-500 rounded-lg py-3 px-2 text-white">CV DOWNLOAD</li> */}
+                    <li><a href="#home" className="hover:text-[#FFDE59] transition-colors cursor-pointer">HOME</a></li>
+                    <li><a href="#about" className="hover:text-[#FFDE59] transition-colors cursor-pointer">ABOUT</a></li>
+                    <li><a href="#skills" className="hover:text-[#FFDE59] transition-colors cursor-pointer">SKILLS</a></li>
+                    <li><a href="#projects" className="hover:text-[#FFDE59] transition-colors cursor-pointer">PROJECTS</a></li>
+                    <li><a href="#contact" className="hover:text-[#FFDE59] transition-colors cursor-pointer">CONTACT</a></li>
                     <ButtonDownloadCV/>
                 </ul>
             </div>
             <div className="md:hidden flex items-center">
-                <button onClick={toggleMenu} className="focus:outline-none">
+                <button onClick={toggleMenu} className="focus:outline-none" aria-label="Toggle navigation menu">
                     {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
                 </button>
             </div>
             {isMenuOpen && (
-                <div className="absolute top-16 right-0 w-full bg-slate-100 flex flex-col items-center md:hidden">
-                    <ul className="flex flex-col items-center gap-4 py-4">
-                        <li className="hover:text-[#FFDE59] cursor-pointer">HOME</li>
-                        <li className="hover:text-[#FFDE59] cursor-pointer">ABOUT</li>
-                        <li className="hover:text-[#FFDE59] cursor-pointer">CONTACT</li>
-                        <li className="hover:text-[#FFDE59] cursor-pointer">PROJECTS</li>
+                <div className="absolute top-16 right-0 w-full bg-slate-100 flex flex-col items-center md:hidden shadow-lg border-b border-slate-200">
+                    <ul className="flex flex-col items-center gap-4 py-4 font-mono font-semibold">
+                        <li><a href="#home" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FFDE59] cursor-pointer">HOME</a></li>
+                        <li><a href="#about" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FFDE59] cursor-pointer">ABOUT</a></li>
+                        <li><a href="#skills" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FFDE59] cursor-pointer">SKILLS</a></li>
+                        <li><a href="#projects" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FFDE59] cursor-pointer">PROJECTS</a></li>
+                        <li><a href="#contact" onClick={() => setIsMenuOpen(false)} className="hover:text-[#FFDE59] cursor-pointer">CONTACT</a></li>
                     </ul>
                 </div>
             )}

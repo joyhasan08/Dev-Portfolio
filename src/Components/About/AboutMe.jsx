@@ -1,28 +1,32 @@
-import me from './../../assets/bg/layered-final.svg'
+import me from './../../assets/bg/layered-final.svg';
+
 
 const AboutMe = () => {
     return (
-        <div>
-            <div className="p-5 mx-auto sm:p-10 md:p-16 bg-gray-100 text-gray-800">
-                <div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
-                    <img src={me} alt="" className="w-full object-cover h-60 sm:h-96 bg-gray-500" />
-                    <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-gray-50">
-                        <div className="space-y-2">
-                            <a rel="noopener noreferrer" href="#" className="inline-block text-2xl font-semibold sm:text-3xl">The Best Activewear from the Nordstrom Anniversary Sale</a>
-                            <p className="text-xs text-gray-600">By
-                                <a rel="noopener noreferrer" href="#" className="text-xs hover:underline">Leroy Jenkins</a>
-                            </p>
-                            <p>About me</p>
+        <section id="about" className="py-12 text-gray-800">
+            <div className="max-w-7xl mx-auto px-6">
+                <div className="bg-white rounded-xl border-2 border-black shadow-[0.25rem_0.25rem_#121212] overflow-hidden">
+                    {/* <img src={me} alt="Background abstract" className="w-full object-cover h-48 sm:h-64" /> */}
+                    <div className="p-8 space-y-6">
+                        <div className="space-y-2 border-b-2 border-slate-200 pb-4">
+                            <h2 className="text-3xl font-bold font-mono">About Me</h2>
+                            <p className="text-sm font-mono text-gray-600">CSE Graduate & Full-Stack Developer</p>
                         </div>
-                        <div className="text-gray-800">
-                            <p>Insert the actual text content here...</p>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, harum!</p>
+                        <div className="font-mono text-gray-700 leading-relaxed space-y-4">
+                            <p>
+                                I am Zarjij Hasan Joy, a dedicated MERN Stack and Mobile Application Developer with a Computer Science and Engineering background. I specialize in turning complex problems into elegant, user-friendly digital solutions.
+                            </p>
+                            <p>
+                                With experience across the full web stack—from architecting RESTful APIs and MongoDB data models to crafting dynamic frontends with React and cross-platform apps with React Native—I pride myself on building performant, maintainable, and scalable applications.
+                            </p>
+                            <p>
+                                Beyond code, I am passionate about clean UI architecture, continuous learning, and contributing to impactful digital projects.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

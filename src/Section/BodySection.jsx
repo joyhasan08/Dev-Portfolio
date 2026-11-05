@@ -71,7 +71,7 @@ const techs = [
 // #C1FF72
 const BodySection = () => {
   return (
-    <section className="w-full  ">
+    <section id="skills" className="w-full">
      <div className="max-w-7xl mx-auto">
       <Title  title={"SKILLS SET"} />  
      </div>
